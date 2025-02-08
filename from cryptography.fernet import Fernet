@@ -1,0 +1,30 @@
+Phase 1: Foundation & Research
+
+✅ Define Core Functions – What will the AI do? (Secure chat, knowledge base, resource locator?)
+✅ Choose Programming Language – Python is recommended for AI, encryption, and networking.
+✅ Select AI Model – Use an open-source LLM like GPT-J, Llama 2, or PrivateGPT.
+✅ Study Decentralized Technologies – Learn about IPFS, peer-to-peer networking, and encryption tools.
+
+from cryptography.fernet import Fernet  # Import first
+import openai
+
+# Generate or load encryption key
+key = Fernet.generate_key()  # Now this runs after import
+cipher_suite = Fernet(key)
+
+def chat_with_ai(prompt):
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo", 
+        messages=[{"role": "system", "content": "You are a survival-focused AI assistant."},
+                  {"role": "user", "content": prompt}]
+    )
+    encrypted_response = cipher_suite.encrypt(response["choices"][0]["message"]["content"].encode())
+    return encrypted_response
+
+while True:
+    user_input = input("You: ")
+    if user_input.lower() in ["exit", "quit"]:
+        break
+    encrypted_ai_response = chat_with_ai(user_input)
+    decrypted_ai_response = cipher_suite.decrypt(encrypted_ai_response).decode()
+    print("AI:", decrypted_ai_response)
