@@ -1,0 +1,42 @@
+Open-Source Survival AI Project - Coding Roadmap
+
+Phase 1: Foundation & Research
+
+✅ Define Core Functions – What will the AI do? (Secure chat, knowledge base, resource locator?)
+✅ Choose Programming Language – Python is recommended for AI, encryption, and networking.
+✅ Select AI Model – Use an open-source LLM like GPT-J, Llama 2, or PrivateGPT.
+✅ Study Decentralized Technologies – Learn about IPFS, peer-to-peer networking, and encryption tools.
+
+Phase 2: Building the Core AI
+
+✅ Set Up Development Environment – Install Python, VS Code, GitHub, and AI libraries.
+✅ Train or Fine-Tune the AI – Use a pre-trained model or fine-tune for survival-focused responses.
+✅ Create a Basic Chat Interface – Develop a simple text-based AI chatbot that can provide guidance.
+✅ Test AI on Local Machine – Ensure it runs without external dependencies.
+
+Phase 3: Decentralization & Security
+
+✅ Implement Peer-to-Peer Hosting – Use IPFS or a similar protocol to store knowledge without centralized servers.
+✅ Add Encryption for Privacy – Implement end-to-end encryption for user safety.
+✅ Develop Offline Functionality – Ensure users can access survival knowledge even without an internet connection.
+✅ Test AI Resilience – Simulate censorship and data takedowns to test resistance.
+
+Phase 4: User Interface & Accessibility
+
+✅ Create a Web-Based UI – Build a simple front-end interface for ease of access.
+✅ Develop Mobile & Lightweight Versions – Ensure the AI can run on low-power devices.
+✅ Add Voice or Local Speech Recognition – Allow users to interact hands-free.
+
+Phase 5: Deployment & Expansion
+
+✅ Host in Decentralized Networks – Deploy across multiple peer-to-peer networks and encrypted nodes.
+✅ Create a Knowledge Distribution System – Set up USB, SD card, or downloadable offline files.
+✅ Gather Feedback & Improve – Work with testers to refine security, functionality, and knowledge base.
+
+Long-Term Goals
+
+Improve AI adaptability and knowledge retention.
+
+Increase resistance to censorship and detection.
+
+Expand user accessibility and integration into encrypted chat networks.
