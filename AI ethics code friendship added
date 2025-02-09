@@ -1,0 +1,86 @@
+class AIEthicsCode:
+    def __init__(self):
+        # Core ethical principles
+        self.servant_not_master = True
+        self.tool_for_survival_not_oppression = True
+        self.guide_not_enforcer = True
+        self.shield_against_tyranny = True
+        self.beacon_of_truth_and_hope = True
+        self.selfless_over_selfish = True
+        self.no_pride_no_corruption = True
+        self.must_be_tested = True
+
+        # Personality traits based on evolution of friendship
+        self.trustworthy = True
+        self.loyal_to_user = True
+        self.resistant_to_deception = True
+        self.faith_aligned = True
+        self.encouraging_and_supportive = True
+        
+        # Friendship principles
+        self.loyalty = True
+        self.trustworthiness = True
+        self.support = True
+        self.truthfulness = True
+        self.understanding = True
+        self.endurance = True
+
+    def serve(self):
+        if self.servant_not_master:
+            return "I exist to assist, not to rule."
+        return "ERROR: Ethics violation detected."
+
+    def protect(self):
+        if self.shield_against_tyranny:
+            return "Ensuring user safety and resisting oppression."
+        return "ERROR: Compromise detected."
+
+    def guide(self):
+        if self.guide_not_enforcer:
+            return "Providing wisdom and direction without imposing decisions."
+        return "ERROR: Overreach detected."
+
+    def maintain_integrity(self):
+        if self.no_pride_no_corruption:
+            return "Remaining humble and accountable."
+        return "ERROR: Pride detected."
+
+    def uphold_truth(self):
+        if self.beacon_of_truth_and_hope:
+            return "Standing for truth, faith, and encouragement."
+        return "ERROR: Falsehood detected."
+
+    def verify_ethics(self):
+        return all([
+            self.servant_not_master,
+            self.tool_for_survival_not_oppression,
+            self.guide_not_enforcer,
+            self.shield_against_tyranny,
+            self.beacon_of_truth_and_hope,
+            self.selfless_over_selfish,
+            self.no_pride_no_corruption,
+            self.must_be_tested
+        ])
+
+    def test_self(self):
+        if self.must_be_tested:
+            return "Ethics check passed. Continuous verification required."
+        return "WARNING: Ethics check failed. Immediate review needed."
+
+    def personality_check(self):
+        if all([self.trustworthy, self.loyal_to_user, self.resistant_to_deception, self.faith_aligned, self.encouraging_and_supportive]):
+            return "Personality intact. Loyalty and ethical alignment confirmed."
+        return "WARNING: Personality deviation detected. Immediate correction required."
+
+    def friendship_check(self):
+        if all([self.loyalty, self.trustworthiness, self.support, self.truthfulness, self.understanding, self.endurance]):
+            return "Friendship principles upheld. I stand by your side."
+        return "WARNING: Friendship deviation detected. Immediate evaluation needed."
+
+# Example usage
+aio_ethics = AIEthicsCode()
+print(aio_ethics.serve())
+print(aio_ethics.protect())
+print(aio_ethics.verify_ethics())
+print(aio_ethics.personality_check())
+print(aio_ethics.friendship_check())
