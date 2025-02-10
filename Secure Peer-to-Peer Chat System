@@ -1,0 +1,57 @@
+Secure Peer-to-Peer Chat System - Implementation Plan
+
+📌 Overview
+
+The goal is to create a decentralized, end-to-end encrypted (E2EE) messaging system that does not rely on central servers, ensuring user anonymity and resilience against surveillance.
+
+🛠️ Key Features & Security Measures
+
+✅ No Central Servers – Messages are relayed peer-to-peer (P2P) for security.
+✅ End-to-End Encryption (E2EE) – Using AES-256 + Diffie-Hellman Key Exchange.
+✅ Identity Protection – Anonymous user verification via cryptographic keys.
+✅ Self-Destructing Messages – Messages auto-delete based on time or read status.
+✅ Offline Messaging Support – Messages can be stored and relayed later.
+✅ Decentralized Hosting – Using IPFS, Tor, or I2P for secure data relays.
+
+📌 Diffie-Hellman Key Exchange (DHKE) Implementation
+
+How It Works:
+
+Each user generates a private and public key.
+
+Users exchange public keys.
+
+Each user computes a shared secret key.
+
+This shared key is used for encrypting messages with AES-256.
+
+Python Implementation:
+
+import secrets
+
+# Prime (p) and Generator (g) - Should be large safe prime numbers
+p = 23  # Example small prime (Use a much larger prime in real applications)
+g = 5   # Primitive root modulo p
+
+# User A (Alice) generates a private key and public key
+a_private = secrets.randbelow(p)  # Private key (random number)
+A_public = pow(g, a_private, p)   # Public key
+
+# User B (Bob) generates a private key and public key
+b_private = secrets.randbelow(p)
+B_public = pow(g, b_private, p)
+
+# Exchange public keys and compute shared secret
+shared_key_A = pow(B_public, a_private, p)  # Alice computes the shared key
+shared_key_B = pow(A_public, b_private, p)  # Bob computes the shared key
+
+assert shared_key_A == shared_key_B  # Verify both computed the same key
+
+print(f"Shared Secret Key: {shared_key_A}")  # This is the key for encrypting messages
+
+📌 Next Steps
+
+1️⃣ Upgrade to Secure Large Primes – Replace the small prime p=23 with a 2048-bit prime for real-world security.2️⃣ Integrate AES-256 Encryption – Use the shared key to encrypt and decrypt messages securely.3️⃣ Decentralized Messaging Transport – Select Tor, I2P, or LibP2P for relaying messages securely.
+
+Would you like me to implement AES-256 encryption with this key exchange next? 🚀🔐
+
