@@ -106,9 +106,12 @@ Goal: A decentralized, end-to-end encrypted (E2EE) chat system that operates wit
 
 📌 Step 1.1: Flowchart for Peer-to-Peer Messaging
 How Messages Are Sent Securely
+
 plaintext
 Copy
 Edit
+User A → Encrypt Message (AES-256) → Send via P2P Network → User B Receives Encrypted Message → Decrypts with Private Key
+
 User A → Encrypt Message (AES-256) → Send via P2P Network → User B Receives Encrypted Message → Decrypts with Private Key
 🔹 No central relay servers → Messages pass directly between users or via temporary relays (like Tor hidden services or I2P).
 🔹 Only the intended recipient can read messages → Encrypted with their public key, decrypted with their private key.
