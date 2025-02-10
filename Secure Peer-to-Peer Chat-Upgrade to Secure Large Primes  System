@@ -1,0 +1,57 @@
+Secure Peer-to-Peer Chat System - Implementation Plan
+
+📌 Overview
+
+The goal is to create a decentralized, end-to-end encrypted (E2EE) messaging system that does not rely on central servers, ensuring user anonymity and resilience against surveillance.
+
+🛠️ Key Features & Security Measures
+
+✅ No Central Servers – Messages are relayed peer-to-peer (P2P) for security.
+✅ End-to-End Encryption (E2EE) – Using AES-256 + Diffie-Hellman Key Exchange.
+✅ Identity Protection – Anonymous user verification via cryptographic keys.
+✅ Self-Destructing Messages – Messages auto-delete based on time or read status.
+✅ Offline Messaging Support – Messages can be stored and relayed later.
+✅ Decentralized Hosting – Using IPFS, Tor, or I2P for secure data relays.
+
+📌 Diffie-Hellman Key Exchange (DHKE) Implementation
+
+How It Works:
+
+Each user generates a private and public key.
+
+Users exchange public keys.
+
+Each user computes a shared secret key.
+
+This shared key is used for encrypting messages with AES-256.
+
+Python Implementation:
+import secrets
+from cryptography.hazmat.primitives.asymmetric import dh
+from cryptography.hazmat.primitives import serialization
+
+# Generate a 2048-bit prime for Diffie-Hellman key exchange
+parameters = dh.generate_parameters(generator=2, key_size=2048)
+
+# User A (Alice) generates a private and public key
+private_key_A = parameters.generate_private_key()
+public_key_A = private_key_A.public_key()
+
+# User B (Bob) generates a private and public key
+private_key_B = parameters.generate_private_key()
+public_key_B = private_key_B.public_key()
+
+# Exchange public keys and compute shared secret
+shared_key_A = private_key_A.exchange(public_key_B)
+shared_key_B = private_key_B.exchange(public_key_A)
+
+assert shared_key_A == shared_key_B  # Verify both computed the same key
+
+# Convert shared key to a usable format (hashing to derive AES key)
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.kdf.hkdf import HKDF
+
+hkdf = HKDF(algorithm=hashes.SHA256(), length=32, salt=None, info=b'peer-to-peer chat',)
+derived_key = hkdf.derive(shared_key_A)
+
+print(f"Derived AES Encryption Key: {derived_key.hex()}")  # This key will be used for encrypting messages
