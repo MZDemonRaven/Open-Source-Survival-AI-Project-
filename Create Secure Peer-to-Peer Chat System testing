@@ -1,0 +1,128 @@
+Secure Peer-to-Peer Chat System - Implementation Plan
+
+📌 Overview
+
+The goal is to create a decentralized, end-to-end encrypted (E2EE) messaging system that does not rely on central servers, ensuring user anonymity and resilience against surveillance.
+
+🛠️ Key Features & Security Measures
+
+✅ No Central Servers – Messages are relayed peer-to-peer (P2P) for security.✅ End-to-End Encryption (E2EE) – Using AES-256 + Diffie-Hellman Key Exchange.✅ Identity Protection – Anonymous user verification via cryptographic keys.✅ Self-Destructing Messages – Messages auto-delete based on time or read status.✅ Offline Messaging Support – Messages can be stored and relayed later.✅ Decentralized Hosting – Using IPFS, Tor, or I2P for secure data relays.
+
+📌 Diffie-Hellman Key Exchange (DHKE) Implementation
+
+How It Works:
+
+Each user generates a private and public key.
+
+Users exchange public keys.
+
+Each user computes a shared secret key.
+
+This shared key is used for encrypting messages with AES-256.
+
+Python Implementation:
+import secrets
+from cryptography.hazmat.primitives.asymmetric import dh
+from cryptography.hazmat.primitives import serialization, hashes
+from cryptography.hazmat.primitives.kdf.hkdf import HKDF
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+import os
+
+# Generate a 2048-bit prime for Diffie-Hellman key exchange
+parameters = dh.generate_parameters(generator=2, key_size=2048)
+
+# User A (Alice) generates a private and public key
+private_key_A = parameters.generate_private_key()
+public_key_A = private_key_A.public_key()
+
+# User B (Bob) generates a private and public key
+private_key_B = parameters.generate_private_key()
+public_key_B = private_key_B.public_key()
+
+# Exchange public keys and compute shared secret
+shared_key_A = private_key_A.exchange(public_key_B)
+shared_key_B = private_key_B.exchange(public_key_A)
+
+assert shared_key_A == shared_key_B  # Verify both computed the same key
+
+# Convert shared key to a usable format (hashing to derive AES key)
+hkdf = HKDF(algorithm=hashes.SHA256(), length=32, salt=None, info=b'peer-to-peer chat')
+derived_key = hkdf.derive(shared_key_A)
+
+print(f"Derived AES Encryption Key: {derived_key.hex()}")  # This key will be used for encrypting messages
+
+📌 Tor Integration for Anonymous Messaging Transport
+
+To ensure secure and untraceable message delivery, we will integrate Tor hidden services into the system.
+
+1️⃣ Full Tor-Based Message Relay System
+
+✔ Messages are sent through onion services instead of the regular internet.✔ Each peer in the network hosts a hidden service endpoint for messaging.✔ Uses asynchronous relaying to avoid direct connections.
+
+Python Implementation (Tor Message Relay):
+
+from stem.control import Controller
+import socket
+
+def start_tor_hidden_service():
+    with Controller.from_port(port=9051) as controller:
+        controller.authenticate()
+        hidden_service = controller.create_ephemeral_hidden_service({80: 5000}, await_publication=True)
+        print(f"Tor Hidden Service Running: {hidden_service.service_id}.onion")
+        return hidden_service.service_id
+
+def send_tor_message(message, target_onion):
+    try:
+        with socket.create_connection((target_onion, 5000)) as sock:
+            sock.sendall(message.encode())
+            response = sock.recv(1024)
+            print("Received response:", response.decode())
+    except Exception as e:
+        print("Error sending message:", str(e))
+
+# Example usage
+tor_address = start_tor_hidden_service()
+print(f"Your chat server is accessible at {tor_address}.onion")
+
+2️⃣ Ensuring Seamless Tor Connectivity
+
+✔ Users automatically connect to Tor on startup.✔ Implementing a Tor bootstrap check to ensure connectivity.
+
+3️⃣ Secure Message Transmission Testing & Optimization
+
+✔ Validate latency, reliability, and encryption integrity of Tor message relay.✔ Ensure messages are fully encrypted before transmission.✔ Improve Performance & Error Handling – Implement automated retries for failed transmissions.✔ Develop a Logging System – Track messages sent and received for debugging purposes.
+
+Automated Testing Script for Tor Messaging:
+
+import time
+from stem.control import Controller
+import socket
+
+def check_tor_bootstrap():
+    """Checks if Tor is properly bootstrapped and ready for connections."""
+    with Controller.from_port(port=9051) as controller:
+        controller.authenticate()
+        bootstrap_status = controller.get_info("status/bootstrap-phase")
+        print("Tor Bootstrap Status:", bootstrap_status)
+
+
+def test_message_relay(target_onion):
+    """Tests sending and receiving messages over Tor."""
+    test_message = "Test message over Tor at " + str(time.time())
+    try:
+        with socket.create_connection((target_onion, 5000)) as sock:
+            sock.sendall(test_message.encode())
+            response = sock.recv(1024)
+            print("Test message sent successfully! Received:", response.decode())
+    except Exception as e:
+        print("Tor relay test failed:", str(e))
+
+# Example Usage
+check_tor_bootstrap()
+
+📌 Next Steps
+
+1️⃣ Run automated tests to validate Tor message relay and encryption.2️⃣ Optimize error handling and retry mechanisms for unreliable connections.3️⃣ Enhance logging and debugging features for network issues.
+
+Would you like to proceed with running and analyzing the automated Tor messaging tests next? 🚀🔐
+
