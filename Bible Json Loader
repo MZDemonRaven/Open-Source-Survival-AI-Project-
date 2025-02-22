@@ -1,0 +1,41 @@
+import json
+import os
+
+# Directory where the JSON files are stored
+BIBLE_JSON_DIR = "bible_json_files"
+
+# Load all JSON files into a single Bible dictionary
+bible = {}
+
+def load_bible():
+    global bible
+    bible = {}
+    for filename in os.listdir(BIBLE_JSON_DIR):
+        if filename.endswith(".json"):
+            book_name = filename.replace(".json", "")
+            with open(os.path.join(BIBLE_JSON_DIR, filename), "r", encoding="utf-8") as file:
+                bible[book_name] = json.load(file)
+    print("Bible successfully loaded.")
+
+# Search for a verse in the Bible
+def search_scripture(book, chapter, verse):
+    book = book.title()
+    if book in bible:
+        if chapter in bible[book]["chapters"]:
+            if verse in bible[book]["chapters"][chapter]:
+                return bible[book]["chapters"][chapter][verse]
+            else:
+                return "Verse not found."
+        else:
+            return "Chapter not found."
+    else:
+        return "Book not found."
+
+if __name__ == "__main__":
+    load_bible()
+    
+    # Example usage
+    book_name = "John"
+    chapter = "3"
+    verse = "16"
+    print(f"{book_name} {chapter}:{verse} -", search_scripture(book_name, chapter, verse))
