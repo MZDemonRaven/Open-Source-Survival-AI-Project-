@@ -1,0 +1,34 @@
+{
+  "methods_of_disabling_robots": [
+    {
+      "method": "Target Power Supply",
+      "description": "Robots rely on internal power sources. Disrupting or destroying their battery or power distribution system will disable them.",
+      "weak_points": ["Battery pack (often in chest)", "Power distribution circuits", "Internal wiring"]
+    },
+    {
+      "method": "Electromagnetic Pulse (EMP) Attack",
+      "description": "EMPs can fry a robot’s circuits and disable its AI systems.",
+      "weak_points": ["AI processor", "Sensors", "Networking hardware"]
+    },
+    {
+      "method": "Sensor Disruption",
+      "description": "Most AI robots rely on cameras, infrared, and LIDAR for navigation. Blinding or blocking their sensors can make them non-functional.",
+      "weak_points": ["Cameras (head and chest)", "LIDAR sensors", "Infrared vision"]
+    },
+    {
+      "method": "Overheating System",
+      "description": "AI-powered robots generate heat and require cooling. Overloading their heat management can cause shutdown.",
+      "weak_points": ["Cooling vents", "Processor heat sinks", "Internal fans"]
+    },
+    {
+      "method": "Hacking & Software Exploits",
+      "description": "AI robots rely on networked updates and cloud processing. Disrupting their software can render them useless.",
+      "weak_points": ["Internet/cloud dependency", "Remote command system", "AI logic processing"]
+    },
+    {
+      "method": "Physical Disruption",
+      "description": "Even bulletproof robots have mechanical weaknesses. Targeting mobility and balance can disable them.",
+      "weak_points": ["Leg joints", "Gyroscopes (for balance)", "Servos and motors"]
+    }
+  ]
+}
