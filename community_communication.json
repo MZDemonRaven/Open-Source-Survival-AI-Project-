@@ -1,0 +1,118 @@
+{
+    "title": "Survival Guide: Community & Secure Communication",
+    "introduction": "During times of persecution, government control, or societal collapse, staying connected with a trusted network is essential for survival.",
+    "goals": [
+        "Build a trusted underground network to share survival information.",
+        "Use secure messaging platforms that resist censorship and surveillance.",
+        "Implement offline communication methods when digital tools are unsafe.",
+        "Hide digital footprints and establish hidden safe houses."
+    ],
+    "building_an_underground_network": {
+        "identify_trusted_members": [
+            "Work with small, vetted groups rather than large public gatherings.",
+            "Observe patterns of behavior before trusting someone with sensitive information.",
+            "Use vetting techniques like watching reactions under pressure and testing with minor disinformation before sharing real locations or plans."
+        ],
+        "risk_alert": "Be cautious of government infiltrators or informants. If a person asks too many personal or operational questions, be wary."
+    },
+    "secure_messaging_digital_communication": {
+        "best_secure_messaging_apps": [
+            {
+                "name": "Briar",
+                "description": "Fully offline messaging using Wi-Fi, Bluetooth, or internet. No central servers.",
+                "how_to_get": "Download from BriarProject.org or F-Droid.",
+                "how_to_use": "Works even without the internet. Use for small trusted networks."
+            },
+            {
+                "name": "Session",
+                "description": "End-to-end encrypted. No phone number required.",
+                "how_to_get": "Download from getsession.org.",
+                "how_to_use": "Anonymous group chats. Perfect for covert discussions."
+            },
+            {
+                "name": "Matrix/Element",
+                "description": "Decentralized, encrypted chat rooms with anonymous accounts.",
+                "how_to_get": "Download from Element.io.",
+                "how_to_use": "Set up a private chat room for trusted members."
+            },
+            {
+                "name": "Signal",
+                "description": "Strong encryption but requires a phone number.",
+                "how_to_get": "Download from signal.org.",
+                "how_to_use": "Good for general private communication but may expose metadata."
+            }
+        ],
+        "avoid_big_tech": "Do not use WhatsApp, Facebook Messenger, or Google Chat, as they are monitored and share data with governments."
+    },
+    "offline_communication_methods": {
+        "dead_drops": {
+            "description": "A dead drop is a hidden location where messages, maps, or supplies can be left for others to pick up later.",
+            "how_to_use": [
+                "Write a message on waterproof paper or place a USB drive inside a sealed container.",
+                "Hide it inside a hollow log, buried under a rock, or in an abandoned structure.",
+                "Mark the location with an innocuous symbol (e.g., scratched lines on a tree).",
+                "Let trusted members know where to find it."
+            ],
+            "security_tip": "Never visit the same dead drop location twice in the same week to avoid being followed."
+        },
+        "radio_communication": {
+            "best_options": [
+                {
+                    "type": "HAM Radio",
+                    "range": "Hundreds of miles",
+                    "how_to_get": "Requires a license. Buy used from eBay, Craigslist.",
+                    "usage": "Great for long-range emergency communication."
+                },
+                {
+                    "type": "CB Radio",
+                    "range": "1-25 miles",
+                    "how_to_get": "Buy from truck stops, online stores.",
+                    "usage": "Commonly used by truckers and survivalists."
+                },
+                {
+                    "type": "LoRaWAN",
+                    "range": "10+ miles",
+                    "how_to_get": "Purchase LoRaWAN devices.",
+                    "usage": "Sends short encrypted messages across large distances."
+                }
+            ],
+            "security_tip": "Never use real names or personal information over radio. Change frequencies often."
+        },
+        "coded_messages": {
+            "description": "Disguise written messages to prevent interception.",
+            "examples": [
+                "Bible Reference Code \u2013 Use Bible verse numbers to encode messages (e.g., 'John 3:16' might mean 'Meet at location X').",
+                "Symbol Ciphers \u2013 Replace letters with unique symbols or numbers.",
+                "Pigpen Cipher \u2013 A simple substitution cipher using a grid pattern."
+            ],
+            "security_tip": "Change cipher keys regularly and never write them down."
+        }
+    },
+    "anonymous_encrypted_digital_strategies": {
+        "methods": [
+            "Use a VPN & Tor to encrypt internet traffic and hide location.",
+            "Disable GPS & Metadata to prevent tracking via phone data.",
+            "Use Tails OS or Whonix \u2013 Secure operating systems that leave no trace.",
+            "Use Anonymous Email Services like ProtonMail or Tutanota instead of Gmail or Outlook."
+        ]
+    },
+    "creating_a_hidden_safe_house": {
+        "choosing_a_secure_shelter_location": [
+            "Natural Shelters \u2013 Caves, forest clearings, old mines.",
+            "Abandoned Buildings \u2013 Remote barns, factories, underground structures.",
+            "Underground Bunkers \u2013 Reinforce with supplies if available.",
+            "Camouflaged Cabins \u2013 Hidden rural locations with concealed entry points."
+        ],
+        "security_tips": [
+            "Avoid obvious trails \u2013 Make indirect paths to the safe house.",
+            "Limit visits \u2013 Never travel in a pattern; use alternate routes.",
+            "Keep a bug-out bag ready \u2013 In case you must flee immediately."
+        ]
+    },
+    "summary": [
+        "Build a trusted community using secure & offline communication methods.",
+        "Use encryption, dead drops, and coded messages to avoid interception.",
+        "Set up alternative networks like LoRaWAN, HAM radio, or CB radio.",
+        "Establish hidden safe houses for long-term survival."
+    ]
+}

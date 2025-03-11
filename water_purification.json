@@ -1,0 +1,86 @@
+{
+    "title": "Survival Guide: Water Sourcing & Purification",
+    "introduction": "Water is the most critical survival resource. Without it, dehydration begins in hours, cognitive function declines rapidly, and survival time is limited to about 3 days.",
+    "goals": [
+        "Teach how to find water sources in the wild.",
+        "Provide safe purification methods to prevent illness.",
+        "Show how to extract water using survival techniques."
+    ],
+    "finding_water": {
+        "natural_sources": [
+            "Running Water: Streams, rivers, waterfalls (less stagnant, fewer bacteria).",
+            "Lakes & Ponds: Still water may be contaminated; always purify.",
+            "Rainwater Collection: Safe if collected properly.",
+            "Dew & Fog Harvesting: Can be collected from plants overnight."
+        ],
+        "tracking_water_using_nature": [
+            "Follow Animal Tracks: Animals instinctively know water sources.",
+            "Look for Green Plants: Lush vegetation suggests underground water.",
+            "Insects & Birds: Swarming insects and birds often indicate nearby water.",
+            "Rock Crevices & Tree Hollows: May collect rainwater."
+        ],
+        "digging_for_water": [
+            "Dry Riverbeds: Dig into damp sand or gravel; water may seep in.",
+            "Base of Hills: Water collects at lower ground levels.",
+            "Tree Roots: Dig near trees with deep roots; they tap into groundwater."
+        ]
+    },
+    "water_purification_methods": {
+        "boiling": {
+            "description": "Kills 99.9% of pathogens and works on any water source.",
+            "steps": [
+                "Collect water in a heat-safe container (metal pot, rock depression, or clay vessel).",
+                "Bring to a rolling boil for at least 5 minutes (10 minutes at high altitudes).",
+                "Let it cool before drinking."
+            ]
+        },
+        "filtering": {
+            "description": "Removes dirt, debris, and some bacteria. Must be combined with boiling or chemical treatment for full purification.",
+            "steps": [
+                "Find a container (bottle, hollowed-out wood, or cloth).",
+                "Layer materials inside:",
+                "Top Layer: Large rocks (traps large debris).",
+                "Middle Layer: Sand & charcoal (absorbs contaminants).",
+                "Bottom Layer: Cloth or fine sand (final filtration).",
+                "Pour water through several times before use."
+            ]
+        },
+        "chemical_treatment": {
+            "description": "Kills bacteria & viruses. Useful for emergency purification.",
+            "options": [
+                "Iodine Tablets: 1 tablet per liter of water; wait 30 minutes.",
+                "Chlorine Drops: 2-4 drops per liter; wait 30 minutes.",
+                "Bleach (Unscented, 5-6% Sodium Hypochlorite): 2 drops per liter; shake and wait 30 minutes."
+            ],
+            "warning": "Chemical purification does NOT remove sediment or toxins."
+        }
+    },
+    "extracting_water_without_a_source": {
+        "solar_still": {
+            "description": "Extracts water from soil & plants using evaporation.",
+            "steps": [
+                "Dig a hole 3 feet wide and 2 feet deep in damp soil.",
+                "Place a container in the center.",
+                "Cover the hole with a plastic sheet or a survival blanket.",
+                "Weigh down the center with a small stone to funnel water droplets into the container.",
+                "Wait a few hours for water to condense inside."
+            ]
+        },
+        "tree_transpiration_bag": {
+            "description": "Uses tree leaves to pull moisture from the air.",
+            "steps": [
+                "Find a tree with lots of green leaves.",
+                "Wrap a clear plastic bag over a branch, enclosing several leaves.",
+                "Tie it tightly at the branch\u2019s base.",
+                "Leave it in the sun for a few hours.",
+                "Collect the condensed water inside."
+            ]
+        }
+    },
+    "summary": [
+        "Always purify water before drinking \u2013 Boiling is the best method.",
+        "Look for running water first \u2013 It\u2019s safer than still water.",
+        "Use survival techniques (solar still, dew collection, transpiration) if no water is found.",
+        "Avoid drinking untreated water \u2013 It can make survival harder."
+    ]
+}

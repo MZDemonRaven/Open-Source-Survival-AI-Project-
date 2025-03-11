@@ -1,0 +1,108 @@
+{
+    "title": "Survival Guide: Escape & Evasion Tactics",
+    "introduction": "In hostile environments, the ability to disappear and remain undetected is crucial. This guide covers how to escape pursuers, avoid detection, and stay hidden in urban and wilderness settings.",
+    "goals": [
+        "Stay ahead of pursuers and avoid capture.",
+        "Blend into the environment to become untraceable.",
+        "Use misdirection techniques to throw off trackers.",
+        "Employ stealth movement to remain silent and unseen."
+    ],
+    "general_escape_principles": [
+        "Distance is your best friend \u2013 The farther away you are, the harder you are to track.",
+        "Never move in straight lines \u2013 Zigzag patterns and irregular movements make tracking harder.",
+        "Break your scent trail \u2013 Walk through water, use strong-smelling plants to mask your scent.",
+        "Avoid predictable movements \u2013 Don\u2019t follow roads or trails; move unpredictably.",
+        "Change your appearance \u2013 Switch clothes, wear a hat, cover identifying features."
+    ],
+    "immediate_escape_tactics": {
+        "break_line_of_sight": [
+            "Use obstacles (trees, buildings, vehicles) to block an attacker's view.",
+            "Turn sharp corners & double back to confuse pursuers.",
+            "Move at unpredictable speeds \u2013 walk, then sprint, then slow down."
+        ],
+        "mask_your_sound": [
+            "Avoid dry leaves, twigs, and gravel \u2013 Step on soft dirt or grass.",
+            "Breathe through your nose \u2013 Mouth breathing is louder.",
+            "Move when there is background noise (wind, traffic, birds)."
+        ],
+        "disrupt_your_trail": [
+            "Walk through running water (streams, rivers) to erase footprints and scent.",
+            "Move across rocky terrain where footprints won\u2019t stick.",
+            "Drag a branch behind you to blur footprints in sand or dirt."
+        ],
+        "anti-tracking_tip": "If you\u2019re being followed by dogs, rub your body with pine sap, mud, or crushed wild garlic to confuse their scent-tracking abilities."
+    },
+    "urban_escape_evasion": {
+        "change_appearance": [
+            "Remove or change outer clothing (jacket, hat, scarf).",
+            "Wear reversible clothes (flip inside out for a new look).",
+            "Blend into a crowd \u2013 Walk at the same pace as the people around you."
+        ],
+        "disappear_in_public_spaces": [
+            "Enter a busy place (shopping mall, train station, hospital) and exit through another entrance.",
+            "Walk into a store and buy a cheap item to delay pursuers and change their focus.",
+            "Board public transport and exit at a random stop to throw off tracking."
+        ],
+        "use_misleading_routes": [
+            "Never walk in a straight line \u2013 Take multiple turns to check if you\u2019re being followed.",
+            "Enter a building and exit through another exit.",
+            "Walk against traffic flow \u2013 Pursuers in vehicles will have difficulty following."
+        ],
+        "hiding_spots": [
+            "Public restrooms with multiple exits allow time to change appearance.",
+            "Construction sites or parking garages provide temporary hiding spots.",
+            "Hotels or hostels allow for quick identity changes."
+        ]
+    },
+    "wilderness_escape_evasion": {
+        "use_natural_cover": [
+            "Stay in dense vegetation \u2013 Avoid open spaces like fields or roads.",
+            "Blend in with your environment \u2013 Use mud, leaves, or charcoal to break up your skin tone.",
+            "Move through shadows and avoid hilltops (silhouettes are easy to spot)."
+        ],
+        "avoid_drones_thermal_imaging": [
+            "Hide under thick tree cover \u2013 Foliage blocks infrared heat signatures.",
+            "Lie near large rocks or in caves \u2013 Rocks absorb heat, masking your presence.",
+            "Cover yourself with an emergency blanket (Mylar) \u2013 Blocks infrared heat detection."
+        ],
+        "stealth_movement": [
+            "Move only at dawn, dusk, or nighttime when visibility is low.",
+            "Crouch-walk to avoid breaking the horizon line.",
+            "Never travel in a straight line; change direction frequently."
+        ],
+        "anti-surveillance_tip": "If helicopters or drones are searching for you, stay still and press flat against a surface (ground, wall, rock). Do not move until the threat passes."
+    },
+    "avoiding_tracking_capture": {
+        "misdirection_tactics": [
+            "Create a false trail \u2013 Walk into mud, then backtrack on your own footprints.",
+            "Throw objects ahead of you to make noise in a different direction.",
+            "Leave misleading evidence (false fire pits, broken branches in the wrong direction)."
+        ],
+        "avoid_night_vision_detection": [
+            "Wear dark, non-reflective clothing \u2013 Avoid white or bright colors.",
+            "Use thick vegetation to block infrared light.",
+            "Do not use flashlights or lighters unless absolutely necessary."
+        ],
+        "if_captured": [
+            "Act like you belong \u2013 If questioned, remain calm and act normal.",
+            "Blend into a group \u2013 Attach yourself to a passing crowd.",
+            "Distract & Escape \u2013 Drop an object behind you (coins, flashlight) and sprint in the opposite direction."
+        ]
+    },
+    "long_term_evasion_survival": {
+        "staying_hidden": [
+            "Find a secure shelter \u2013 Avoid caves near water (risk of discovery).",
+            "Stay silent \u2013 Do not make unnecessary noise.",
+            "Make a hidden food cache \u2013 Store supplies in separate locations.",
+            "Rotate sleeping spots \u2013 Never sleep in the same place twice in a row."
+        ]
+    },
+    "summary": [
+        "Break line of sight & use obstacles to disappear.",
+        "Walk through water or rough terrain to erase tracks.",
+        "Disrupt scent trails to confuse dogs & search teams.",
+        "Use misdirection (false trails, noise distractions, broken branches).",
+        "Use camouflage, natural cover, and darkness to remain undetected.",
+        "Move at night, avoid roads, and travel unpredictably."
+    ]
+}

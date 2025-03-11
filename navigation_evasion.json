@@ -1,0 +1,80 @@
+{
+    "title": "Survival Guide: Navigation & Evasion",
+    "introduction": "In a survival scenario, knowing how to navigate without technology and avoid detection can mean the difference between life and death.",
+    "goals": [
+        "Use natural signs to determine direction without a compass.",
+        "Create a primitive compass using simple materials.",
+        "Develop camouflage and stealth techniques to remain undetected.",
+        "Avoid leaving tracks and evade pursuers effectively."
+    ],
+    "navigation_without_compass": {
+        "sun_navigation": {
+            "methods": [
+                "Find East & West \u2013 The sun rises in the East and sets in the West.",
+                "Shadow Stick Method:",
+                "- Place a stick upright in the ground and mark the tip of its shadow.",
+                "- Wait 15-30 minutes, then mark where the shadow tip has moved.",
+                "- The first mark is West, and the second mark is East.",
+                "Watching the Sun\u2019s Movement \u2013 If the sun is moving left to right, you are facing South (Northern Hemisphere)."
+            ]
+        },
+        "star_navigation": {
+            "methods": [
+                "Use the North Star (Polaris) to find North:",
+                "- Locate the Big Dipper (Ursa Major).",
+                "- Find the two outer stars in the bowl; they point to Polaris.",
+                "- Polaris is always in the North, helping you stay oriented."
+            ]
+        },
+        "tree_moss_navigation": {
+            "methods": [
+                "Moss Growth \u2013 In many places, moss grows on the North side of trees (Northern Hemisphere), but check multiple trees to confirm.",
+                "Tree Branches \u2013 In open areas, branches tend to grow more on the South side where they get more sunlight."
+            ]
+        }
+    },
+    "making_a_primitive_compass": {
+        "materials_needed": [
+            "Needle, small metal object (paperclip, razor blade).",
+            "Magnet or silk cloth.",
+            "Leaf or small cork.",
+            "Water container (puddle, calm water, bottle cap)."
+        ],
+        "steps": [
+            "Magnetize the Needle \u2013 Rub it 30-50 times in one direction with a magnet or silk cloth.",
+            "Float the Needle \u2013 Place it on a leaf or small piece of cork in still water.",
+            "Observe \u2013 The needle will align itself North-South."
+        ]
+    },
+    "camouflage_and_stealth_movement": {
+        "camouflage_tips": [
+            "Use Natural Colors \u2013 Wear earth tones (brown, green, gray) to blend in.",
+            "Break Up Your Outline \u2013 Cover exposed skin with mud, charcoal, or leaves.",
+            "Avoid Shiny Objects \u2013 Remove jewelry, glasses, and anything that reflects light.",
+            "Move Like the Environment \u2013 In windy conditions, move when the wind blows to mask sound."
+        ],
+        "stealth_movement_techniques": [
+            "Stay Low & Use Cover \u2013 Move behind rocks, trees, and tall grass.",
+            "Walk Heel-to-Toe \u2013 Reduces noise on dry leaves and branches.",
+            "Time Your Movements \u2013 Move when birds chirp or the wind rustles leaves."
+        ]
+    },
+    "avoiding_tracking_and_pursuit": {
+        "covering_tracks": [
+            "Walk on Hard Surfaces \u2013 Avoid soft ground where footprints are visible.",
+            "Step on Rocks & Logs \u2013 Reduces footprint visibility.",
+            "Drag a Branch Behind You \u2013 Sweeps away footprints."
+        ],
+        "disrupting_scent_trails": [
+            "Cross Water \u2013 Walk through a river or stream to break your scent.",
+            "Use Strong-Smelling Plants \u2013 Rub pine needles, wild garlic, or mud on your skin.",
+            "Travel in a Zigzag Pattern \u2013 Makes it harder for pursuers to follow."
+        ]
+    },
+    "summary": [
+        "Use the Sun & Stars for navigation if lost.",
+        "Create a primitive compass with a needle and water.",
+        "Use camouflage & stealth to stay hidden.",
+        "Cover tracks & disrupt scent trails to evade pursuers."
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "title": "Survival Guide: Foraging & Food Preservation",
+    "introduction": "In a survival situation, food is critical for energy, strength, and mental clarity. Knowing what is safe to eat and how to preserve food ensures long-term survival.",
+    "goals": [
+        "Identify edible plants & berries and avoid toxic lookalikes.",
+        "Recognize safe mushrooms and avoid poisonous ones.",
+        "Teach basic fishing & trapping techniques for protein sources.",
+        "Explain food preservation methods (drying, smoking, root cellars)."
+    ],
+    "foraging_edible_plants": {
+        "rules": [
+            "Follow the Universal Edibility Test \u2013 Always test small amounts first.",
+            "Avoid plants with milky sap (exceptions: dandelion, wild lettuce).",
+            "Steer clear of plants with three-leaf clusters (Poison Ivy, Poison Oak).",
+            "Berries: Red can be risky; blue, black, and purple are often safe."
+        ],
+        "common_edible_plants": [
+            {
+                "name": "Dandelion (Taraxacum officinale)",
+                "identification": "Yellow flowers, jagged leaves, milky sap.",
+                "habitat": "Lawns, fields, roadsides.",
+                "lookalikes": "None\u2014safe to eat."
+            },
+            {
+                "name": "Cattail (Typha spp.)",
+                "identification": "Tall reeds with brown 'hotdog' tops.",
+                "habitat": "Near water (ponds, rivers, swamps).",
+                "lookalikes": "Blue flag iris (toxic)."
+            },
+            {
+                "name": "Chicory (Cichorium intybus)",
+                "identification": "Purple flowers, bitter leaves, thick root.",
+                "habitat": "Fields, roadsides, dry areas.",
+                "lookalikes": "None\u2014safe to eat."
+            }
+        ],
+        "deadly_lookalikes": [
+            {
+                "name": "Hemlock (Conium maculatum)",
+                "description": "Looks like wild carrot but smells musty and has purple blotches on the stem.",
+                "toxicity": "EXTREMELY TOXIC."
+            },
+            {
+                "name": "Nightshade (Solanum spp.)",
+                "description": "Small berries look like wild cherries but are highly toxic.",
+                "toxicity": "DEADLY if ingested."
+            }
+        ]
+    },
+    "foraging_safe_mushrooms": {
+        "safe_mushrooms": [
+            {
+                "name": "Morel (Morchella spp.)",
+                "identification": "Honeycomb-like cap, hollow inside.",
+                "habitat": "Woodlands, near dead trees.",
+                "lookalikes": "False Morel (has a cottony interior)."
+            },
+            {
+                "name": "Chicken of the Woods (Laetiporus spp.)",
+                "identification": "Bright orange, shelf-like growth on trees.",
+                "habitat": "Oak & hardwood forests.",
+                "lookalikes": "None\u2014safe to eat."
+            }
+        ],
+        "deadly_lookalikes": [
+            {
+                "name": "Death Cap (Amanita phalloides)",
+                "description": "White or pale yellow cap, gills NOT attached to the stem.",
+                "toxicity": "Kills in hours."
+            },
+            {
+                "name": "Destroying Angel (Amanita bisporigera)",
+                "description": "Pure white, skirted stem, bulbous base.",
+                "toxicity": "EXTREMELY TOXIC."
+            }
+        ]
+    },
+    "fishing_trapping": {
+        "fishing_methods": [
+            "Hand Fishing (Noodling) \u2013 Reach under rocks and grab fish (dangerous if snapping turtles are present).",
+            "Spearfishing \u2013 Use a sharpened stick in shallow water.",
+            "Weir Traps \u2013 Arrange sticks in a 'V' shape in the water to funnel fish into a small area.",
+            "Basket Traps \u2013 Woven sticks create a one-way entry for fish."
+        ],
+        "trapping_methods": [
+            "Deadfall Trap \u2013 A heavy rock or log falls on an animal when triggered.",
+            "Snare Trap \u2013 A noose made from cord or vines tightens around the animal\u2019s neck.",
+            "Pit Trap \u2013 Dig a deep hole and cover it with weak branches and leaves."
+        ]
+    },
+    "food_preservation": {
+        "drying_meat": [
+            "Thinly slice meat and remove fat.",
+            "Hang in direct sun or over a fire.",
+            "Smoke for extra preservation (optional)."
+        ],
+        "smoking_meat_fish": [
+            "Set up a fire pit with a rack (wood, sticks, or metal grates).",
+            "Use hardwood (oak, hickory, apple) for slow burning.",
+            "Smoke meat for several hours until dry."
+        ],
+        "root_cellars": [
+            "Dig 3-6 feet underground for stable temperatures.",
+            "Store root vegetables, nuts, and preserved foods.",
+            "Cover with leaves or straw for insulation."
+        ]
+    },
+    "summary": [
+        "Only eat plants & mushrooms you are 100% sure are safe.",
+        "Fish & small game provide reliable protein sources.",
+        "Use drying, smoking, and root cellars to store food for long-term survival.",
+        "Avoid deadly lookalikes\u2014misidentification can be fatal."
+    ]
+}

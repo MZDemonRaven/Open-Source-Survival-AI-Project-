@@ -1,0 +1,69 @@
+{
+    "title": "Primitive Food Preservation Guide",
+    "introduction": "Preserving food without modern technology was a crucial skill for ancient societies. These techniques ensured food remained edible for months or even years.",
+    "methods": {
+        "fermentation": {
+            "description": "Fermentation uses beneficial bacteria to break down sugars and create an acidic environment that prevents spoilage.",
+            "best_for": ["Vegetables (cabbage, carrots, radishes)", "Dairy (yogurt, cheese)", "Grains (sourdough, beer)"],
+            "steps": [
+                "Slice vegetables into thin pieces or leave whole.",
+                "Make a salt brine (1 tbsp salt per 2 cups water).",
+                "Pack vegetables in a clay jar or wooden barrel, ensuring they are fully submerged in brine.",
+                "Weigh down with a rock or wooden lid.",
+                "Let ferment for 3-4 weeks at room temperature before storing in a cool place."
+            ]
+        },
+        "salt_curing": {
+            "description": "Salt draws moisture out of meat, preventing bacterial growth.",
+            "best_for": ["Red meat", "Fish", "Pork"],
+            "steps": [
+                "Rub meat with ½ pound of salt per 5 pounds of meat.",
+                "Layer meat in a wooden box or clay pot with salt.",
+                "Let sit for 2-4 weeks in a cool, dry place.",
+                "Rinse off excess salt and hang to dry."
+            ]
+        },
+        "fat_sealing": {
+            "description": "Fat blocks air, sealing the food from bacteria and oxidation.",
+            "best_for": ["Meat", "Berries", "Grains"],
+            "methods": {
+                "pemmican": [
+                    "Dry lean meat and grind it into powder.",
+                    "Mix with melted animal fat in equal parts.",
+                    "Press into blocks and store in a cool place."
+                ],
+                "confit": [
+                    "Slow cook meat in its own fat for 6-8 hours.",
+                    "Submerge in rendered fat and store in sealed clay jars."
+                ]
+            }
+        },
+        "ash_clay_storage": {
+            "description": "Ash and clay absorb moisture and create an airtight barrier.",
+            "best_for": ["Root vegetables", "Grains", "Dried meat"],
+            "steps": [
+                "Dig a shallow pit (2-3 feet deep) in dry soil.",
+                "Fill with dry wood ashes.",
+                "Bury root vegetables or dried meat, covering completely.",
+                "Seal with clay or more ashes to maintain dryness."
+            ]
+        },
+        "honey_preservation": {
+            "description": "Honey kills bacteria and prevents spoilage due to its low water content.",
+            "best_for": ["Fruits", "Nuts", "Meat"],
+            "steps": [
+                "Submerge fresh or dried fruit in raw honey.",
+                "Store in clay or glass jars.",
+                "For meat preservation, lightly salt the meat and submerge in liquid honey.",
+                "Seal and store in a cool, dark place."
+            ]
+        }
+    },
+    "summary": {
+        "fermentation": "Best for vegetables, dairy, and grains.",
+        "salt_curing": "Best for long-term meat storage.",
+        "fat_sealing": "Best for protein preservation.",
+        "ash_clay_storage": "Best for root vegetables, grains, and dried meat.",
+        "honey_preservation": "Best for fruits, nuts, and even meat."
+    }
+}

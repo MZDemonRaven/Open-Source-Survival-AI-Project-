@@ -1,0 +1,102 @@
+{
+    "title": "Survival Guide: First Aid & Medical Care",
+    "introduction": "Injuries and illnesses can become life-threatening if not treated properly in the wilderness. This guide provides essential survival medical knowledge.",
+    "goals": [
+        "Teach how to treat wounds and prevent infection.",
+        "Provide natural medicine alternatives.",
+        "Explain how to stabilize broken bones and sprains.",
+        "Offer techniques to prevent dehydration and hypothermia."
+    ],
+    "wound_care": {
+        "stopping_bleeding": [
+            "Direct Pressure: Press firmly on the wound with a cloth, bandage, or clean hands.",
+            "Elevation: Raise the injured limb above the heart to slow bleeding.",
+            "Improvised Tourniquet: Use a cloth or belt and tie it 2 inches above the wound. Tighten until bleeding stops (release every 15 minutes to avoid limb loss)."
+        ],
+        "cleaning_wounds": [
+            "Flush the wound with clean, boiled, or purified water.",
+            "Use a clean cloth or bandage to remove debris.",
+            "Apply a natural antiseptic before covering the wound."
+        ],
+        "natural_bandages": [
+            "Cloth strips from shirts, sheets, or soft bark.",
+            "Plant leaves (broad leaves like burdock, plantain, or banana leaves).",
+            "Moss or soft lichen (natural absorbent and antibacterial properties)."
+        ]
+    },
+    "natural_medicines": {
+        "infection_prevention": [
+            "Honey: Antibacterial, great for wound dressing.",
+            "Garlic: Natural antibiotic (apply crushed garlic to wounds).",
+            "Pine Sap: Seals wounds and prevents infection.",
+            "Yarrow Leaves: Stops bleeding and prevents infection.",
+            "Aloe Vera: Soothes burns and cuts."
+        ],
+        "pain_relief": [
+            "Willow Bark Tea: Contains salicin, a natural form of aspirin.",
+            "Clove Oil: Effective for toothaches and minor pain.",
+            "Ginger Tea: Reduces pain and inflammation.",
+            "Lavender Oil: Relieves burns, headaches, and stress."
+        ],
+        "fever_reduction": [
+            "Peppermint Tea: Cools the body and lowers fever.",
+            "Elderberry Tea: Supports the immune system.",
+            "Dandelion Root: Helps detox the body and reduce fever."
+        ]
+    },
+    "treating_broken_bones_sprains": {
+        "broken_bones": [
+            "DO NOT try to force the bone back into place.",
+            "Immobilize the injured limb using a splint (wood, thick branches, rolled cloth).",
+            "Tie the splint with strips of cloth or vines (not too tight).",
+            "Elevate if possible and keep weight off the injury.",
+            "Apply cold compresses (if available) to reduce swelling."
+        ],
+        "sprains": [
+            "Rest the injured limb \u2013 Avoid walking on a sprained ankle.",
+            "Wrap it with a cloth bandage for support.",
+            "Apply cold compresses (use cold water or wrap wet leaves around the injury).",
+            "Elevate the injured area to reduce swelling."
+        ]
+    },
+    "dehydration_hypothermia": {
+        "dehydration": {
+            "symptoms": [
+                "Dark urine",
+                "Dizziness",
+                "Confusion",
+                "Dry mouth"
+            ],
+            "rehydration_steps": [
+                "Find a water source (see Water Purification Guide).",
+                "Make an Oral Rehydration Solution (ORS):",
+                "- 1 liter of clean water",
+                "- \u00bd teaspoon salt",
+                "- 6 teaspoons sugar",
+                "Drink slowly to avoid shocking the system."
+            ]
+        },
+        "hypothermia": {
+            "symptoms": [
+                "Shivering",
+                "Confusion",
+                "Slow breathing",
+                "Blue skin"
+            ],
+            "treatment_steps": [
+                "Move them to a warm area (shelter, fire, or dry space).",
+                "Remove wet clothing and cover them with dry blankets.",
+                "Use body heat \u2013 Huddle next to them under a blanket.",
+                "Give warm water or herbal tea (NO alcohol or caffeine).",
+                "Warm flat stones near a fire and place them around their body."
+            ]
+        }
+    },
+    "summary": [
+        "Stop bleeding immediately using pressure, elevation, or a tourniquet.",
+        "Clean wounds with boiled or filtered water to prevent infection.",
+        "Use natural medicines for antiseptics, pain relief, and fever reduction.",
+        "Splint broken bones and keep weight off sprains.",
+        "Prevent dehydration and hypothermia before they become life-threatening."
+    ]
+}

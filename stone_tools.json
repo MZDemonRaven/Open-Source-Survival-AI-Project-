@@ -1,0 +1,120 @@
+{
+    "title": "Primitive Tool and Weapon Crafting Guide",
+    "introduction": "Using Wood, Stone, and Natural Materials",
+    "materials": {
+        "Wood": "Look for hardwoods (oak, hickory, maple) for durability and softwoods (pine, cedar) for ease of carving.",
+        "Stone": "Use flint, chert, obsidian, or quartzite for sharp edges; sandstone for grinding.",
+        "Bone": "Found in animal remains, useful for spear points, needles, and handles.",
+        "Plant Fibers": "Vines, bark strips, and sinew for lashings.",
+        "Clay": "Used for molding handles and strengthening parts."
+    },
+    "tools_and_weapons": {
+        "Cutting Tools": [
+            {
+                "name": "Stone Knife",
+                "materials_needed": [
+                    "Flint",
+                    "Chert",
+                    "Obsidian",
+                    "Quartzite",
+                    "Wood (optional)",
+                    "Sinew or Fiber"
+                ],
+                "steps": [
+                    "Flake the Stone: Strike a harder stone against a flint/chert/obsidian core to create a sharp-edged flake.",
+                    "Shape the Blade: Use controlled strikes with a hammerstone to create a thin, sharp edge.",
+                    "Handle Attachment (Optional): Split a wooden handle, insert the blade, and lash it with sinew or plant fiber.",
+                    "Sharpening: Rub the edge on sandstone or another coarse rock."
+                ]
+            },
+            {
+                "name": "Wooden Knife",
+                "materials_needed": [
+                    "Hardwood branch",
+                    "Sharp stone or fire for shaping"
+                ],
+                "steps": [
+                    "Carve the Blade Shape: Use a stone tool to whittle a sharp edge.",
+                    "Harden the Edge: Hold over fire without burning to increase durability.",
+                    "Refine the Edge: Sand it against a rough rock to make it sharper."
+                ]
+            }
+        ],
+        "Hunting Weapons": [
+            {
+                "name": "Spear",
+                "materials_needed": [
+                    "Straight hardwood branch (5-7 feet long)",
+                    "Stone or bone tip",
+                    "Sinew or fiber"
+                ],
+                "steps": [
+                    "Shape the Shaft: Remove bark and smooth the wood.",
+                    "Harden the Tip: Fire-harden the sharpened end, or attach a stone/bone spearhead using sinew.",
+                    "Binding: Use plant fibers or sinew to secure the tip."
+                ]
+            },
+            {
+                "name": "Bow and Arrows",
+                "materials_needed": [
+                    "Flexible wood for bow (yew, hickory)",
+                    "Sinew for the string",
+                    "Straight sticks for arrows",
+                    "Flint for tips"
+                ],
+                "steps": {
+                    "Bow": [
+                        "Find a Flexible Wood Piece: About 4-5 feet long.",
+                        "Shape the Bow: Carve a curve into the wood.",
+                        "Attach String: Use twisted sinew, fiber, or rawhide."
+                    ],
+                    "Arrows": [
+                        "Straighten Small Sticks: Use fire or steam to straighten.",
+                        "Attach a Tip: Secure a small stone or bone with sinew.",
+                        "Add Fletching: Use bird feathers to improve flight."
+                    ]
+                }
+            }
+        ],
+        "Utility Tools": [
+            {
+                "name": "Hammer",
+                "materials_needed": [
+                    "Round heavy stone",
+                    "Wooden branch for handle",
+                    "Sinew or fiber"
+                ],
+                "steps": [
+                    "Create a Groove in the Stone: Use another rock to chip a notch for holding.",
+                    "Insert the Handle: Wrap tightly with sinew or fiber.",
+                    "Secure with Resin (Optional): Pine resin or tree sap can strengthen the bond."
+                ]
+            },
+            {
+                "name": "Hand Axe",
+                "materials_needed": [
+                    "Flat stone",
+                    "Wooden handle",
+                    "Sinew"
+                ],
+                "steps": [
+                    "Shape the Stone: Chip flakes off until you get an axe-like shape.",
+                    "Attach Handle: Secure the stone between split wood and lash with sinew.",
+                    "Sharpen the Edge: Rub against rough stone."
+                ]
+            }
+        ],
+        "Cordage and Binding": {
+            "materials_needed": [
+                "Bark strips",
+                "Sinew",
+                "Plant fibers"
+            ],
+            "steps": [
+                "Collect Fibers: From vines, roots, or animal tendons.",
+                "Twist Fibers Together: Use a two-strand twist for added strength.",
+                "Dry and Use: Let it dry for durability."
+            ]
+        }
+    }
+}
