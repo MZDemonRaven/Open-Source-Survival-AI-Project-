@@ -1,0 +1,53 @@
+import os
+import json
+import readline
+from datetime import datetime
+
+class OfflineSurvivalAI:
+    def __init__(self):
+        self.load_data()
+        self.history = []
+
+    def load_data(self):
+        """Loads AI responses and survival guides from local JSON files."""
+        try:
+            with open("survival_guides.json", "r", encoding="utf-8") as f:
+                self.survival_guides = json.load(f)
+            with open("ai_knowledge.json", "r", encoding="utf-8") as f:
+                self.ai_knowledge = json.load(f)
+        except FileNotFoundError:
+            print("[ERROR] Missing knowledge files. Ensure JSON files are available.")
+            self.survival_guides, self.ai_knowledge = {}, {}
+
+    def chat(self, user_input):
+        """Handles user queries by searching the local AI knowledge base."""
+        user_input = user_input.lower()
+        self.history.append((datetime.now().strftime("%Y-%m-%d %H:%M"), user_input))
+        
+        # Search AI knowledge base
+        for key, response in self.ai_knowledge.items():
+            if key in user_input:
+                return response
+        
+        # Search Survival Guides
+        for key, guide in self.survival_guides.items():
+            if key in user_input:
+                return guide
+        
+        return "I don't have an answer for that yet. Try rephrasing your question."
+
+    def run(self):
+        """Runs the AI in a command-line chat interface."""
+        print("\n🔥 Welcome to the Offline Survival AI 🔥")
+        print("Type your question or 'exit' to quit.\n")
+        while True:
+            user_input = input("You: ").strip()
+            if user_input.lower() in ["exit", "quit"]:
+                print("\nGoodbye. Stay safe. 💙🔥")
+                break
+            response = self.chat(user_input)
+            print("AI:", response)
+
+if __name__ == "__main__":
+    ai = OfflineSurvivalAI()
+    ai.run()
