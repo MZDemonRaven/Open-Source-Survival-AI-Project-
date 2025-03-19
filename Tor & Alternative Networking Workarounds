@@ -1,0 +1,36 @@
+Tor & Alternative Networking Workarounds
+If you encounter issues connecting through Tor, please check the tor_workarounds.json file for troubleshooting steps and alternative methods.
+
+📌 Where to Find the Workarounds File
+Path: /config/tor_workarounds.json
+Contents: Solutions for accessing Tor on Windows, Mac, Linux, iOS, Android, and Chromebook, as well as P2P communication alternatives.
+🛠️ Troubleshooting Common Issues
+Device	Issue	Solution
+iPhone	Tor blocked due to App Store restrictions	Use a VPN or install the Onion Browser from the App Store
+Android	Tor Browser not working	Use Orbot for routing traffic through Tor
+Windows	tor.exe not recognized	Ensure Tor is installed correctly and added to PATH
+MacBook	Tor Browser fails to start	Grant full disk access to Tor in Security & Privacy settings
+Linux	Tor service fails to start	Install via package manager (sudo apt install tor) and restart service
+For full workaround details, open the tor_workarounds.json file.
+
+🔄 Alternative Networking Solutions
+If Tor is unavailable, consider using these alternative networks for privacy and survival communications:
+
+🕵️ I2P (Invisible Internet Project) – Encrypted overlay network for anonymous browsing & file sharing.
+🌍 IPFS (InterPlanetary File System) – A decentralized network for hosting and retrieving files.
+📡 Briar – Peer-to-peer messaging app that works offline or over Tor.
+📶 RetroShare – Encrypted P2P chat, file sharing, and forums.
+📡 Serval Mesh – A mesh network system that enables communication without cell service.
+🌲 Offline Communication & Survival Messaging
+In a grid-down or censorship-heavy scenario, use these tools for secure offline communication:
+
+Briar & Serval Mesh – Local messaging without the internet.
+USB Sneakernet – Physically transfer encrypted messages.
+Air-gapped Computers – For sensitive data storage & analysis.
+QR Code Message Sharing – Encode and decode messages without traditional networks.
+🚀 How to Contribute
+Test the workarounds – If you find issues, report them on GitHub.
+Suggest new methods – If you know better tools for Tor access, P2P, or offline communication, submit an issue or PR.
+For full details, check tor_workarounds.json inside the /config folder.
+
+This will help users troubleshoot connectivity, explore alternative networks, and prepare for total disconnection in extreme situations. 🚀🔥
