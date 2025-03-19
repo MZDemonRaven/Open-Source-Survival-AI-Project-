@@ -1,0 +1,46 @@
+{
+    "version": "1.1",
+    "last_updated": "2025-03-19",
+    "categories": {
+        "Food": {
+            "How to Find Edible Plants": "Look for common edible plants like dandelions, cattails, and clover.",
+            "Foraging & Food Preservation": "Identify edible plants, trap small game, and learn preservation techniques such as drying and smoking."
+        },
+        "Shelter": {
+            "Building a Survival Shelter": "Use branches, leaves, and debris to insulate against cold.",
+            "Primitive Shelters": "Lean-tos, debris huts, and underground dugouts can provide insulation and protection."
+        },
+        "Water": {
+            "Purifying Water": "Boil water for at least 5 minutes or use a purification tablet.",
+            "Water Collection": "Use solar stills, rainwater catchment, and groundwater filtration techniques."
+        },
+        "Fire": {
+            "Starting a Fire": "Use dry tinder, flint, or a magnifying glass to ignite a fire.",
+            "Fire-Making Techniques": "Bow drill, fire plough, and chemical fire-starting methods."
+        },
+        "Navigation & Evasion": {
+            "Navigation Without a Compass": "Use the sun, stars, and natural landmarks for guidance.",
+            "Escape & Evasion": "Move at night, avoid paths, and use terrain to your advantage."
+        },
+        "Communication": {
+            "Community Communication": "Use offline messaging apps, radio frequencies, and coded signals.",
+            "Alternative Communication": "Hand signals, smoke signals, and Morse code."
+        },
+        "Medical & First Aid": {
+            "Basic First Aid": "Control bleeding, treat wounds, and handle fractures with makeshift splints.",
+            "Herbal Remedies": "Use natural plants like willow bark (aspirin alternative) and aloe vera (wound healing)."
+        },
+        "Tools & Weapons": {
+            "Stone Tools": "How to shape stone into cutting tools and spearheads.",
+            "Hunting Weapons": "Craft bows, spears, and traps for food acquisition."
+        },
+        "Wilderness Survival": {
+            "Survival Locations": "Best remote places to avoid detection and sustain long-term survival.",
+            "Off-Grid Living": "Sustainable practices such as permaculture, solar power, and composting."
+        },
+        "Technology & Security": {
+            "Offline AI & Survival": "How to use offline AI models for guidance and emergency decision-making.",
+            "Tor & Secure Networking": "Workarounds to access Tor and maintain secure, anonymous communications."
+        }
+    }
+}
