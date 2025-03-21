@@ -1,0 +1,34 @@
+{
+    "Water Purification": {
+        "description": "Boil for at least 1 minute or use purification tablets.",
+        "image": "water_purification.jpg"
+    },
+    "Food Storage": {
+        "description": "Store dry goods in sealed containers. Keep canned food in a cool, dry place.",
+        "image": "food_storage.jpg"
+    },
+    "First Aid": {
+        "description": "Always have a stocked first aid kit with antiseptic, bandages, and pain relief.",
+        "image": "first_aid.jpg"
+    },
+    "Shelter": {
+        "description": "Use tarps, mylar blankets, or natural resources to create temporary shelters.",
+        "image": "shelter.jpg"
+    },
+    "Fire Making": {
+        "description": "Use a firestarter, waterproof matches, or create friction-based fires.",
+        "image": "fire_making.jpg"
+    },
+    "Navigation": {
+        "description": "Use a compass and maps. Learn to navigate using the sun and stars.",
+        "image": "navigation.jpg"
+    },
+    "Barter and Trade": {
+        "description": "Identify barter-friendly communities. Offer useful skills or tradeable items.",
+        "image": "barter.jpg"
+    },
+    "Emergency Communication": {
+        "description": "Use HAM radios, CB radios, or encrypted messaging tools like Briar.",
+        "image": "emergency_communication.jpg"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Water Purification": {
+        "Boiling": "Boil water for at least 1 minute (3 minutes at high altitudes).",
+        "Filtration": "Use a layered system of charcoal, sand, and gravel.",
+        "Chemical Treatment": "Use iodine or chlorine tablets (follow dosage instructions)."
+    },
+    "Food Preservation": {
+        "Dehydration": "Sun-dry or use a dehydrator to extend shelf life.",
+        "Fermentation": "Use salt and anaerobic conditions to preserve food.",
+        "Smoking": "Smoke meat over a slow-burning wood fire for preservation."
+    },
+    "Wilderness First Aid": {
+        "Severe Bleeding": "Apply firm pressure with sterile gauze. Use a tourniquet as a last resort.",
+        "Broken Bones": "Splint the limb using available materials and immobilize it.",
+        "Hypothermia": "Wrap in dry clothing, insulate from the ground, and provide warm fluids."
+    },
+    "Self-Defense & Evasion": {
+        "Situational Awareness": "Always be aware of exits and potential threats.",
+        "Improvised Weapons": "Use everyday objects for self-defense.",
+        "Evasion Tactics": "Move unpredictably, blend into surroundings, and travel at night."
+    },
+    "Wildlife Identification & Hunting": {
+        "Tracking": "Look for fresh tracks, broken twigs, and disturbed ground.",
+        "Hunting Tools": "Use traps, bows, or improvised weapons.",
+        "Edible Plants": "Identify local plants safe for consumption."
+    },
+    "Urban Survival": {
+        "Emergency Shelter": "Use abandoned buildings, subway stations, or underground parking.",
+        "Bartering": "Trade essential skills or goods in exchange for necessities.",
+        "Crowd Navigation": "Avoid panicked crowds, use alternative routes, and stay low profile."
+    },
+    "Barter & Networking": {
+        "Finding Safe Traders": "Seek out barter communities, survivalist groups, and farmer's markets.",
+        "Essential Items for Trade": "Stockpile tools, medicine, and non-perishable food.",
+        "Building Trust": "Engage in small trades before committing to large exchanges."
+    }
+}
