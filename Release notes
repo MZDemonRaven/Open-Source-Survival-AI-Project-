@@ -1,0 +1,27 @@
+These are python files that can be turned into exe files. If you have problems please let me know. 
+
+🛠️ How to Build the .EXE
+Install PyInstaller (if you haven’t already):
+
+bash
+Copy
+Edit
+pip install pyinstaller
+Navigate to the folder with your Python file:
+
+bash
+Copy
+Edit
+cd path\to\your\project\folder
+Build your executable:
+
+bash
+Copy
+Edit
+pyinstaller --onefile --console survival_ai_app.py
+(If you want no terminal window popping up, use --windowed instead of --console)
+
+Your .exe will appear in the dist folder.
+
+Make sure your database file, final_survival_ai_with_bible.db, is in the same folder as the .exe or it won’t work properly!
+
