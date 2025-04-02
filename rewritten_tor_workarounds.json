@@ -1,0 +1,7 @@
+[
+    {
+        "category": "Communication",
+        "title": "Offline and Anonymous Access Tips",
+        "content": "Use USB-bootable Tails OS for private internet use. If Tor is blocked, use bridges or obfuscated protocols like meek or snowflake. Access decentralized content using IPFS or pre-downloaded HTML archives. Never use personal info or logins. Rotate identities, and avoid tracking scripts using NoScript or similar tools."
+    }
+]

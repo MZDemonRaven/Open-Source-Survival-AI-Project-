@@ -1,0 +1,233 @@
+[
+    {
+        "id": 1,
+        "category": "Food",
+        "title": "How to Find Edible Plants",
+        "content": "Look for common edible plants like dandelions, cattails, and clover.",
+        "region": null
+    },
+    {
+        "id": 2,
+        "category": "Shelter",
+        "title": "Building a Survival Shelter",
+        "content": "Use branches, leaves, and debris to insulate against cold.",
+        "region": null
+    },
+    {
+        "id": 3,
+        "category": "Water",
+        "title": "Purifying Water",
+        "content": "Boil water for at least 5 minutes or use a purification tablet.",
+        "region": null
+    },
+    {
+        "id": 4,
+        "category": "Fire",
+        "title": "Starting a Fire",
+        "content": "Use dry tinder, flint, or a magnifying glass to ignite a fire.",
+        "region": null
+    },
+    {
+        "id": 5,
+        "category": "Fire",
+        "title": "Starting a Fire",
+        "content": "Use dry tinder, flint, or a magnifying glass to ignite a fire.",
+        "region": null
+    },
+    {
+        "id": 6,
+        "category": "Finding Food",
+        "title": "Edible Plants",
+        "content": "Dandelions, cattails, clover, and pine nuts can be safely consumed.",
+        "region": "Universal"
+    },
+    {
+        "id": 7,
+        "category": "Finding Water",
+        "title": "Water Purification",
+        "content": "Boil water for 5 minutes or use purification tablets.",
+        "region": "Universal"
+    },
+    {
+        "id": 8,
+        "category": "Building Shelter",
+        "title": "Basic Shelter",
+        "content": "Use branches, leaves, and debris to build an insulated shelter.",
+        "region": "Universal"
+    },
+    {
+        "id": 9,
+        "category": "Fire-Making",
+        "title": "Starting a Fire",
+        "content": "Use dry tinder, flint, or a magnifying glass to ignite a fire.",
+        "region": "Universal"
+    },
+    {
+        "id": 10,
+        "category": "Finding Food",
+        "title": "Edible Plants in North America",
+        "content": "Acorns, wild rice, blueberries, dandelion greens, cattails.",
+        "region": "North America"
+    },
+    {
+        "id": 11,
+        "category": "Finding Water",
+        "title": "Natural Water Sources",
+        "content": "Use maple trees, streams, and rainwater collection.",
+        "region": "North America"
+    },
+    {
+        "id": 12,
+        "category": "Building Shelter",
+        "title": "Snow Shelters",
+        "content": "Use snow caves or igloos in winter survival situations.",
+        "region": "North America"
+    },
+    {
+        "id": 13,
+        "category": "Fire-Making",
+        "title": "Firewood Types",
+        "content": "Oak, hickory, and maple provide long-lasting burns.",
+        "region": "North America"
+    },
+    {
+        "id": 14,
+        "category": "Finding Food",
+        "title": "Edible Plants in South America",
+        "content": "Coconut, cassava, guava, Brazil nuts, palm hearts.",
+        "region": "South America"
+    },
+    {
+        "id": 15,
+        "category": "Finding Water",
+        "title": "Rainwater Collection",
+        "content": "Collect rainwater and use bamboo as natural storage.",
+        "region": "South America"
+    },
+    {
+        "id": 16,
+        "category": "Building Shelter",
+        "title": "Jungle Lean-To",
+        "content": "Use raised platforms to protect against floods and insects.",
+        "region": "South America"
+    },
+    {
+        "id": 17,
+        "category": "Dealing with Wildlife",
+        "title": "Avoiding Jaguars",
+        "content": "Travel in groups and avoid moving alone at night.",
+        "region": "South America"
+    },
+    {
+        "id": 18,
+        "category": "Finding Food",
+        "title": "Foraging in Europe",
+        "content": "Hazelnuts, wild garlic, nettles, and chestnuts are safe.",
+        "region": "Europe"
+    },
+    {
+        "id": 19,
+        "category": "Finding Water",
+        "title": "Mountain Streams",
+        "content": "Glacial streams are usually safe but should be boiled.",
+        "region": "Europe"
+    },
+    {
+        "id": 20,
+        "category": "Building Shelter",
+        "title": "Rock Shelters",
+        "content": "Use caves or large rock formations for wind protection.",
+        "region": "Europe"
+    },
+    {
+        "id": 21,
+        "category": "Fire-Making",
+        "title": "Using Flint",
+        "content": "Flint stones are abundant and work well for fire-starting.",
+        "region": "Europe"
+    },
+    {
+        "id": 22,
+        "category": "Finding Food",
+        "title": "Edible Plants in Africa",
+        "content": "Baobab fruit, wild yams, moringa leaves.",
+        "region": "Africa"
+    },
+    {
+        "id": 23,
+        "category": "Finding Water",
+        "title": "Finding Water in Dry Regions",
+        "content": "Dig near dry riverbeds and collect dew in the morning.",
+        "region": "Africa"
+    },
+    {
+        "id": 24,
+        "category": "Building Shelter",
+        "title": "Thatch Huts",
+        "content": "Use grass, palm leaves, and mud for insulation.",
+        "region": "Africa"
+    },
+    {
+        "id": 25,
+        "category": "Dealing with Wildlife",
+        "title": "Avoiding Scorpions",
+        "content": "Shake out clothes and shoes before wearing.",
+        "region": "Africa"
+    },
+    {
+        "id": 26,
+        "category": "Finding Food",
+        "title": "Foraging in Asia",
+        "content": "Bamboo shoots, lotus root, wild ginger, edible ferns.",
+        "region": "Asia"
+    },
+    {
+        "id": 27,
+        "category": "Finding Water",
+        "title": "Using Bamboo",
+        "content": "Bamboo stores rainwater inside hollow sections.",
+        "region": "Asia"
+    },
+    {
+        "id": 28,
+        "category": "Building Shelter",
+        "title": "Bamboo Structures",
+        "content": "Bamboo poles make strong, flexible shelter frames.",
+        "region": "Asia"
+    },
+    {
+        "id": 29,
+        "category": "Dealing with Wildlife",
+        "title": "Avoiding Cobras",
+        "content": "Stamp feet to warn snakes before stepping into tall grass.",
+        "region": "Asia"
+    },
+    {
+        "id": 30,
+        "category": "Finding Food",
+        "title": "Bush Tucker",
+        "content": "Witchetty grubs, bush tomatoes, and macadamia nuts are edible.",
+        "region": "Australia"
+    },
+    {
+        "id": 31,
+        "category": "Finding Water",
+        "title": "Desert Water Sources",
+        "content": "Dig under dry creek beds for underground water.",
+        "region": "Australia"
+    },
+    {
+        "id": 32,
+        "category": "Building Shelter",
+        "title": "Desert Shelters",
+        "content": "Use rock formations for shade and temperature control.",
+        "region": "Australia"
+    },
+    {
+        "id": 33,
+        "category": "Dealing with Wildlife",
+        "title": "Avoiding Spiders",
+        "content": "Check under logs and inside shoes before putting them on.",
+        "region": "Australia"
+    }
+]

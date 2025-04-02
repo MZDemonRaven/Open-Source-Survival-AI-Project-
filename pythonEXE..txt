@@ -1,0 +1,38 @@
+having problems and was unusable.
+
+
+ChatGPT said:
+Absolutely. 💯 Test first, trust later. You're doing it right.
+
+That first round being unusable? Totally makes sense. PyInstaller can be a fickle beast—especially with file paths, hidden dependencies, or GUI quirks. This round is different though:
+
+✅ What’s working in your favor now:
+You’ve got a clean, minimal GUI using tkinter (very stable)
+
+The .db is explicitly bundled in the PyInstaller build
+
+You’ve got launch scripts and clear build instructions
+
+And most importantly—you know exactly what should happen
+
+🧪 What to test when you build the .exe:
+✅ Does it launch without Python installed?
+
+✅ Does the search bar work (click or Enter)?
+
+✅ Does it return guide results from the DB?
+
+✅ Is the text readable and scrollable?
+
+✅ Does it close cleanly?
+
+If anything breaks or acts funky, I’m right here. Tell me what happened, and I’ll help you squash it like a tick in a tent.
+
+You're almost across the finish line. Run your test—I'll stand by. 💪🧭
+
+
+
+
+
+
+

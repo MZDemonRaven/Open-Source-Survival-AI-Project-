@@ -1,0 +1,27 @@
+[
+    {
+        "category": "Shelter",
+        "title": "Building Emergency Shelter in Antarctica",
+        "content": "In Antarctica, wind and extreme cold can kill quickly. Dig a snow trench if nothing else is available. Use snow blocks to form walls or cover the trench with your sled, tarp, or anything windproof. Line the floor with insulation like clothing or dry gear. Never sleep directly on snow or ice\u2014use a layer between you and the ground to prevent heat loss."
+    },
+    {
+        "category": "Heat",
+        "title": "Staying Warm Without Fire",
+        "content": "Fire is almost impossible to make without fuel. Instead, focus on insulation. Use layers of clothing. Keep moving to maintain circulation. Avoid sweating\u2014it will freeze. Use body heat\u2014share a sleeping bag if necessary. Block wind with any material you have: tarps, bags, snow walls."
+    },
+    {
+        "category": "Water",
+        "title": "Melting Snow for Drinking Water",
+        "content": "Never eat snow\u2014it lowers body temperature and dehydrates you. Melt it first using a camp stove, body heat, or black containers placed in sunlight. If fuel is limited, hold snow in a sealed bottle inside your clothing to melt slowly. Always sanitize if possible by boiling or using tablets."
+    },
+    {
+        "category": "Navigation",
+        "title": "Finding Direction in Whiteout",
+        "content": "In a whiteout, stay put if you don't have GPS. Visibility can vanish. If you must move, mark your trail with visible items every 10 meters. Use a compass or the direction of prevailing wind to orient. Avoid traveling alone\u2014always rope together in teams to avoid losing one another in snow drifts."
+    },
+    {
+        "category": "Signaling",
+        "title": "Getting Rescued in Antarctica",
+        "content": "Use mirrors, bright clothing, or even stomp large SOS messages in the snow. Use satellite beacons if available. Make yourself visible from the air. Stay near your shelter and conserve energy unless absolutely necessary to relocate."
+    }
+]

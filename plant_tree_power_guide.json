@@ -1,0 +1,8 @@
+[
+    {
+        "category": "Energy",
+        "title": "Natural Power Sources \u2013 Plants and Trees as Batteries",
+        "content": "In a survival scenario, even small amounts of electricity can be vital. You can generate power using plant materials and living trees.\n\n1. Potato or Fruit Battery:\n- Insert a zinc nail and a copper wire into a potato or lemon.\n- Connect wires to an LED or small device.\n- Combine multiple potatoes in series to increase voltage.\n\n2. Plant Soil Battery (Mud Battery):\n- Stick a copper and a zinc rod into moist, rich soil with living roots.\n- Capture small voltage using wires connected to a capacitor.\n\n3. Tree Power:\n- Drive a zinc nail into the ground at the tree's base.\n- Insert a copper wire into the tree trunk.\n- Connect both electrodes to a voltmeter or battery for charging.\n- A healthy tree can output 0.5 to 0.8 volts.\n- Chain multiple trees in series to boost voltage.\n\n4. Storing the Power:\n- Use capacitors or rechargeable batteries to store small amounts of energy.\n- A boost converter can increase low voltage to 5V (USB level).\n\n5. Usage:\n- Power LEDs, radios, emergency phones, or recharge battery packs over time.\n- Works best with moist soil, live plants, and broadleaf trees.\n\nWARNING: Output is very low\u2014this is not for powering large devices. Use in emergency only. Be gentle with living trees to avoid damage.",
+        "region": "Universal"
+    }
+]
